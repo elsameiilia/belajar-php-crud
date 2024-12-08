@@ -12,3 +12,23 @@ Selain itu, CRUD adalah fondasi dasar dalam pengembangan sistem atau aplikasi ya
 | Update | Fungsi dari update adalah untuk mengupdate atau memperbaharui data yang sudah ada dalam database. |
 | Delete |Fungsi delete dalam CRUD yaitu untuk menghapus database maupun data atau record yang berada di database. |
 
+## Penerapan CRUD
+Contoh penerapan CRUD yaitu pada program yang telah dibuat. 
+- Terdapat operasi Create, untuk memasukkan data ke dalam database. 
+- Read, untuk menampilkan data yang dipanggil dari database. 
+- Update, untuk memperbaharui data. 
+- Delete, untuk menghapus data yang telah ada.
+- Jangan lupa untuk membuat database dan table yang kemudian akan dihubungkan dengan program.
+
+Pada program yang saya kerjakan, saya menggunakan database MySQL.
+Berikut sintaks database dan table yang digunakan pada program:
+```bash
+  CREATE DATABASE modul_6;
+  USE modul_6;
+  CREATE TABLE pengguna (
+    id int (11) NOT NULL auto_increment,
+    username varchar(100),
+    password varchar(100),
+    PRIMARY KEY (id)
+  );
+```
